@@ -1,4 +1,3 @@
-
 <?php
 
 //Połącz z bazą danych
