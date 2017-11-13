@@ -1,0 +1,198 @@
+@media screen and (max-device-width: 760px) {
+
+
+
+body
+{
+ width: 100%;
+}
+
+#container
+{
+ margin-bottom: 5%;
+ box-sizing: border-box;
+}
+
+#container h1
+{
+text-align: center;
+margin-top: 0; 
+}
+
+
+h1
+{
+ font-size: 45px;
+ margin-top: 3%;
+}
+
+.starter
+{
+ height: 480px;
+}
+
+.pagename
+{
+ height: 100px;
+}
+
+.pagename p
+{
+ top: 6vh;
+ left: -13%;
+ font-size: 50px;
+}
+.pgnlogo
+{
+ top: 1.5vh;
+ left: 0;
+ width: 35%;
+ margin: 0%
+}
+
+#kategorie, #albumy, #zdjecia
+{
+ position: relative;
+ width: 100%;
+ display: block;
+ margin: 0 2.5%;
+}
+
+#albumy
+{
+ top: 450px; 
+}
+
+.kategoria, .album
+{
+ width: 450px;
+ height: 450px;
+ margin: 2% 1%;
+}
+
+.nazwa_kat, .nazwa_alb
+{
+ top: 300px;
+ height: 100px;
+ font-size: 50px;
+ line-height: 90px;
+}
+
+.kategoria img, .album img
+{
+ position: relative;
+ top: -80px;
+ left: -50px;
+ width: 160%;
+ transition: 500ms;
+}
+
+.kategoria img:hover, .album img:hover
+{
+ transform: none;
+ 
+}
+
+#zdjecia
+{
+ width: 950px;
+}
+
+
+.zdjecie
+{
+ width: 930px;
+ height: 610px;
+ margin: 30px 0; 
+}
+
+.zdj
+{ 
+ max-width: 930px;
+ height: 100%;
+}
+
+.big
+{
+ position: relative;
+ top: 100px;
+ left: 1.7%;
+ width: 900px;
+ height: 600px;
+ display: block;
+ margin: 0 auto;
+}
+
+
+.bigger
+{
+ max-width: 100%;
+ height: 100%; 
+}
+
+/*Admin*/
+
+#albumy_admin
+{
+ top: 50px;
+ width: 100%;
+}
+
+#g_a_p
+{
+ position: fixed;
+ width: 200px;
+ top: 50px;
+ left: 20px;
+ z-index: 999;
+}
+
+#g_a_p a
+{
+ float: left;
+ width: 150px;
+ height: 50px;
+ margin: 5%;
+ font-size: 18px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 50px;
+ display: block;
+ background: #995555;
+}
+
+#zdjecia_a
+{
+ width: 960px;
+ margin: 5% auto;
+}
+
+.admin
+{
+ top: 97px;
+}
+
+.zdjecie img
+{
+ z-index: 1
+}
+
+.zdjecie a
+{
+ position: relative;
+ top: -100px;
+ left: 0;
+ width: 60px;
+ height: auto;
+ margin: 5%;
+ font-size: 17px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 20px;
+ border: 2px solid #ffffff;
+ display: block;
+ background: #999900;
+ z-index: 99;
+}

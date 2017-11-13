@@ -1,0 +1,114 @@
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/TCCM.TTF');
+}
+
+@font-face
+{
+font-family: welcom;
+src: url('../fonts/UNICORNN.ttf');
+}
+
+
+body
+{
+ font-family: glowna;
+ width: 100%;
+ height: auto;
+ max-width: 1366px;
+ margin: 0;
+ padding: 0;
+}
+
+header
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 460px;
+ width: 100%;
+ max-width: 1366px;
+ background: url(../images/tła/186.jpg);
+ background-repeat: none;
+ background-size: cover;
+ background-position: center;
+ z-index: 0;
+}
+
+#header_content
+{
+ position: absolute;
+ height: 460px;
+ width: 100%;
+ background: rgba(0, 0, 0, .6);
+}
+
+header img
+{
+ width: 30%;
+ margin-top: 10%;
+ margin-left: 33%;
+ margin-right: 33%;
+}
+
+header h2
+{
+margin-left: 47%;
+color: #ffff99;
+}
+
+a
+{
+ text-decoration: none;
+ color: #333333;
+}
+
+
+a:visited
+{
+ color: #333333;
+}
+
+
+#contener
+{
+ position: absolute;
+ top: 350px;
+ width: 960px;
+ padding: 0;
+ margin: 0 14% 10% 14.5%;
+ box-shadow: 0 0 7px black;
+ background: #ffffff;
+}
+
+#content
+{
+ position: relative;
+ margin: 0 auto;
+}
+
+.article h1
+{
+ margin-left: 10%;
+}
+
+.post
+{
+  width: 80%;
+  margin: 3% 10%;
+  background: #efefef;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.article img
+{
+ width: 60%;
+ margin: 0 20%;
+ border-radius: 5px;
+}
+
+.first p, .posts p
+{
+ 
+}

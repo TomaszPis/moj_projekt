@@ -1,0 +1,239 @@
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/TCCM.TTF');
+}
+
+body{
+  font-family: glowna;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#contact-aside, #contact-form{
+ position: absolute;
+ top: 0;
+ width: 50%;
+ margin: 0;
+ padding: 0;
+}
+
+#contact-aside{
+ right: 0;
+ height: 100vh;
+ background-image: url(../images/tła/oim.jpg);
+ background-size: cover;
+ background-position: center center;
+ box-shadow: 0 0 5px black;
+}
+
+#contact-form{
+ left: 0; 	
+}
+
+.logo
+{
+ width: 30%;
+ margin: 2% 35%;
+}
+
+form{
+position: absolute;
+width: 80%;
+padding: 1%;
+margin: 6% 12%;
+margin-bottom: 5%;
+font-size: 20px;
+box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+background: rgb(75, 149, 215);
+color: #ffffff;
+}
+
+
+form p
+{
+ color: #880000;
+}
+
+textarea{
+width: 95%;
+height: 150px;
+font-size: 16px;
+resize: none;}
+
+textarea:focus {
+outline: none;
+border-radius: 0px;
+transition: 500ms;
+background: #efefef;
+}
+
+input, textarea
+{
+ border: none;
+}
+
+input[type=text], input[type=email]{
+width: 95%;
+height: 32px;
+margin: 1%;
+margin-bottom: 3%;
+padding: 0.2%;
+text-align: center;
+font-size: 16px;
+color: #999999;
+transition: 500ms;
+}
+
+ 
+input[type=submit] {
+ position: relative;
+ left: 1.2%;
+ width: 30%;
+ margin-top: 2%;
+ height: 40px;
+ font-size: 16px;
+ text-align: center;
+ background: #cccc33;
+ color: #333333;
+ border: none;
+ cursor: pointer;}
+
+input:focus {
+ outline: none;
+}
+
+input:hover{
+border-radius: 0px;
+transition: 500ms;
+}
+
+input[type=text]:focus, input[type=email]:focus{
+color: black;
+background: #efefef;
+}
+
+input[type=submit]:hover{
+background: #3366FF;
+color: white;
+}
+
+select
+{
+margin-top: 2%;
+margin-bottom: 2%;
+border: none;
+transition: 500ms; 
+}
+
+select:focus
+{
+ background: #efefef;
+}
+
+
+@media screen and (max-device-width: 790px) {
+#maile
+{
+ position: static;
+ width: 70%;
+ font-size: 25px;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-bottom: 5%;
+ padding: 1%;
+}
+
+form{
+position: static;
+width: 70%;
+margin-bottom: 5%;
+margin-left: 15%;
+margin-right: 15%;
+font-size: 25px;
+}
+
+
+textarea{
+height: 300px;
+font-size: 20px;}
+
+input[type=text], input[type=email]{
+width: 95%;
+height: 40px;
+font-size: 25px;
+}
+
+ 
+input[type=submit] {
+ position: relative;
+ left: 1.2%;
+ width: 30%;
+ height: 4vh;
+ font-size: 2vh;
+ text-align: center;
+ background: #cccc33;
+ color: #333333;
+ border: none;
+ cursor: pointer;}	
+}
+
+
+@media screen and (max-device-width: 480px) {
+
+
+body{
+	padding: 0;
+}
+
+#contact-aside, #contact-form{
+ position: relative;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#contact-aside{
+ left: 0;
+ height: 600px;
+ background-size: cover;
+ background-position: center center;
+ box-shadow: 0 0 5px black;
+}
+
+#contact-form{
+ float: right;
+ top: 700px; 	
+}
+
+.logo
+{
+ width: 30%;
+ margin: 5% 36%;
+}
+
+
+
+form{
+width: 90%;
+margin: 15% 5%;
+font-size: 50px;
+}
+
+
+textarea{
+height: 400px;
+font-size: 35px;}
+
+input[type=text], input[type=email]{
+height: 60px;
+font-size: 35px;
+}
+
+select
+{
+ height: 50px;
+ font-size: 40px;
+}

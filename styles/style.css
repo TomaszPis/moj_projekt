@@ -1,0 +1,313 @@
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/TCCM.TTF');
+}
+
+/*szkielet*/
+
+body
+{
+  font-family: glowna;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#contener
+{
+ width: 100%;
+ z-index: 0;
+ text-align: center;
+ color: #555555;
+}
+
+
+#opis
+{
+ position: relative;
+ margin-bottom: 10%; 
+}
+
+.logo
+{
+ margin-top: 10%;
+ width: 20%;
+}
+
+
+/*zaproszenia główna*/
+
+#products
+{
+ position: absolute;
+ top: 40%;
+ left: 27%;
+ width: 60%;
+}
+
+.product
+{
+ position: relative;
+ width: 30%;
+ height: 500px;
+ float: left;
+ margin: 5%;
+ padding: 0;
+}
+
+.content_pr
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+.content_pr img
+{
+ position: absolute; 
+ top: 0;
+ left: 0;
+ width: 100%;
+ margin: 0;
+}
+
+.content_pr a
+{
+ position: relative;
+ top: 270px;
+ width: 100%;
+ height: 50px;
+ font-size: 24px;
+ text-decoration: none;
+ color: #333333;
+}
+
+/*zaproszenia szkielet na podfoldery */
+
+.content
+{
+ position: relative;
+ top: 25px;
+ margin-bottom: 5%;
+}
+
+.one
+{
+ margin-top: 5%;
+}
+
+.content p
+{
+ position: relative;
+ font-size: 32px; 
+ margin: 3%;
+}
+
+.content img
+{
+ width: 50%;
+ height: 30%;
+ box-shadow: 0px 0px 4px gray;
+}
+
+.spr
+{
+ position: relative;
+ top: 50px;
+ width: 30%;
+ height: 50px;
+ margin-left: 35%;
+ margin-right: 35%;
+ margin-bottom: 15%;
+ background: #555555;
+ font-size: 25px;
+ line-height: 50px;
+ box-shadow: 0px 0px 10px black;
+ transition: 100ms;
+}
+
+.spr a
+{
+ height: 100%;
+ width: 100%;
+ display: block;
+ color: #ffffff;
+ text-decoration: none;
+}
+
+.spr:hover
+{
+ background: #999999;
+}
+
+#booking
+{
+ width: 100%;
+ background: #333333;
+ color: #888888;
+ height: 100px;
+ padding-top: 1%;
+ font-size: 28px;
+}
+
+.first_contact
+{
+ color: #ffffff;
+ text-decoration: none;
+}
+
+@media screen and (max-device-width: 1024px) {
+
+/*zaproszenia główna*/
+
+#products
+{
+ top: 30%;
+ left: 10%;
+ width: 80%;
+ 
+}
+
+.product
+{
+ position: relative;
+ width: 40%;
+}
+
+
+
+.content_pr a
+{
+ top: 400px;
+ font-size: 50px;
+
+}
+
+
+#opis
+{
+ position: relative;
+ margin-bottom: 10%; 
+}
+
+.logo
+{
+ margin-top: 10%;
+ width: 30%;
+}
+
+
+.content p
+{
+ position: relative;
+ font-size: 50px; 
+ margin: 3%;
+}
+
+.content img
+{
+ width: 80%;
+ height: 40%;
+}
+
+
+#booking
+{
+ height: 200px;
+ font-size: 40px;
+}
+}
+
+@media screen and (max-device-width: 760px) {
+
+/*zaproszenia główna*/
+
+#products
+{
+ top: 45%;
+ left: 10%;
+ width: 80%;
+ 
+}
+
+.product
+{
+ position: relative;
+ width: 40%;
+}
+
+
+
+.content_pr a
+{
+ top: 350px;
+ font-size: 40px;
+
+}
+
+
+.content img
+{
+ width: 95%;
+ height: 40%;
+}
+.spr
+{
+ height: 100px;
+ font-size: 50px;
+ line-height: 100px;
+}
+#booking
+{
+ height: 200px;
+}
+}
+
+@media screen and (max-device-width: 480px) {
+
+
+
+/*zaproszenia główna*/
+
+#products
+{
+ top: 15%;
+ left: 5%;
+ width: 80%;
+ 
+}
+
+.product
+{
+ position: relative;
+ width: 100%;
+ margin-bottom: 60%;
+}
+
+
+
+.content_pr a
+{
+ top: 830px;
+ font-size: 50px;
+ background: rgba(250, 250, 250, .9);
+ padding: 0.5%;
+}
+
+
+.content p
+{
+ position: relative;
+ font-size: 50px; 
+ margin: 3%;
+}
+
+.content img
+{
+ width: 95%;
+ height: 40%;
+}
+
+}

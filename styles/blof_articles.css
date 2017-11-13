@@ -1,0 +1,78 @@
+@font-face
+{
+font-family: glowna;
+src: url(../fonts/tccm.ttf);
+}
+
+@font-face
+{
+font-family: welcom;
+src: url(../fonts/unicornn.ttf);
+}
+
+
+body
+{
+ font-family: glowna;
+ width: 100%;
+ max-width: 1366px;
+ margin: 0;
+ padding: 0;
+}
+
+header
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 460px;
+ width: 100%;
+ max-width: 1366px;
+ background: url(../images/tła/186.jpg);
+ background-repeat: none;
+ background-size: cover;
+ background-position: center;
+ z-index: 0;
+}
+
+#header_content
+{
+ position: absolute;
+ height: 460px;
+ width: 100%;
+ background: rgba(0, 0, 0, .6);
+}
+
+header img
+{
+ width: 30%;
+ margin-top: 10%;
+ margin-left: 33%;
+ margin-right: 40%;
+}
+
+header h2
+{
+margin-left: 47%;
+color: #ffff99;
+}
+
+a
+{
+ text-decoration: none;
+}
+
+#contener
+{
+ position: relative;
+ top: 350px;
+ width: 960px;
+ height: auto;
+ padding: 1%;
+ margin-left: 14%;
+ margin-right: 14%;
+ margin-bottom: 5%;
+ z-index: 1;
+ background: #ffffff;
+ box-shadow: 0 0 5px black;
+}

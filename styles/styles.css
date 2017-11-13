@@ -1,0 +1,336 @@
+@keyframes poszerz{
+	0% {transform: scale(1);}
+	50% {transform: scale(1.1);
+		 background: #999999;}
+	100% {transform: scale(1);}
+}
+
+@keyframes poszerz2{
+	0% {transform: scale(1);}
+	50% {transform: scale(1.1);}
+	100% {transform: scale(1);}
+}
+
+@keyframes link{
+	0% {color: #ffffff;}
+	100% {color: #cc3333;}
+}
+
+
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/BASICTITLEFONT.TTF');
+}
+
+@font-face
+{
+font-family: intro;
+src: url('../fonts/CAMPAIGN.TTF');
+}
+
+body
+{
+ font-family: glowna;
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ color:  #555555;
+}
+
+a
+{
+ color: #ffffff;
+ text-decoration: none;
+}
+
+a:visited
+{
+ color: #ffffff;
+}
+
+#start
+{
+ position: absolute;
+ width: 100%;
+ margin-top: 10%;
+ text-align: center;
+}
+
+.logo
+{
+ width: 30%;
+ margin-bottom: 1%;
+ margin-left: 35%;
+ margin-right: 35%;
+ animation-name: logo;
+ animation-duration: 3s;
+}
+
+#start h1 
+{
+ position: relative;
+ top: -50px;
+}
+
+.intro{
+ margin-top: 3%;
+ font-family: glowna;
+ font-size: 30px;
+}
+
+#start ul
+{
+ position: relative;
+ top: 20px;
+ display: block;
+ width: 60%;
+ display: block;
+ margin: 0 auto;
+ transition: 0.3s transform ease-in;
+}
+
+#start ul li
+{
+ float: left;
+ width: 150px;
+ height: 150px;
+ margin: 0%;
+ margin-left: 36.5%;
+ list-style-type: none;
+ overflow: hidden;
+ transition: 0.3s;
+ background: rgb(75, 149, 215);
+ border-radius: 100%;
+ animation-name: poszerz;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ transition: 1s;
+}
+
+
+
+/*
+#start ul li img
+{
+ width: 100%;
+}
+
+*/
+
+.name
+{
+ position: relative;
+ top: 10px;
+ width: 100%;
+ height: 50%;
+ font-size: 32px;
+ transition: 0.1s ease-out;
+}
+
+.dwa{
+	top: 33px;
+}
+
+.build
+{
+ font-size: 45px;
+}
+#start ul li a:hover > .name
+{
+ transform: translateY(-150%);
+ color: #ffffff;
+}
+
+#footer{
+ position: absolute;
+ bottom: 0;
+ left: 100px;
+ color: #888888;
+}
+
+#footer p{
+	font-size: 20px;
+}
+
+
+@media screen and (max-device-width: 1024px) {
+
+
+
+.logo
+{
+ width: 40%;
+ margin-bottom: 1%;
+ margin-left: 35%;
+ margin-right: 35%;
+}
+
+
+#start ul
+{
+ width: 80%;
+ margin-top: 20%;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+#start ul li
+{
+ float: left;
+ width: 45%;
+ height: 35vh;
+ margin: 1%;
+}
+
+
+
+.name
+{
+ top: -143px;
+ height: 40%;
+ line-height: 100px;
+}
+
+
+#start ul li a:hover > .name
+{
+ top: -300px;
+}
+
+
+}
+
+@media screen and (max-device-width: 1024px) {
+
+
+
+.logo
+{
+ width: 40%;
+ margin-bottom: 1%;
+ margin-left: 30%;
+ margin-right: 30%;
+}
+
+
+#start ul
+{
+ display: block;
+ width: 80%;
+ margin-top: 20%;
+  margin-left: 10%;
+ margin-right: 10%;
+
+}
+
+#start ul li
+{
+ float: left;
+ width: 45%;
+ height: 35vh;
+ margin: 1%;
+}
+
+
+
+.name
+{
+ top: -143px;
+ height: 40%;
+ line-height: 100px;
+}
+
+
+#start ul li a:hover > .name
+{
+ top: -300px;
+}
+
+
+}
+
+@media screen and (max-device-width: 960px) {
+
+
+
+.logo
+{
+ width: 40%;
+ margin-bottom: 1%;
+ margin-left: 30%;
+ margin-right: 30%;
+}
+
+
+#start ul
+{
+ display: block;
+ width: 80%;
+ margin-top: 20%;
+  margin-left: 10%;
+ margin-right: 10%;
+
+}
+
+#start ul li
+{
+ float: left;
+ width: 90%;
+ height: 35vh;
+ margin: 1%;
+}
+
+
+
+.name
+{
+ top: -143px;
+ height: 40%;
+ line-height: 100px;
+}
+
+
+#start ul li a:hover > .name
+{
+ top: -300px;
+}
+
+
+}
+
+@media screen and (max-device-width: 760px) {
+
+
+.intro{
+	margin-top: 5%;
+	font-size: 40px;
+}
+
+#start ul li
+{
+ float: left;
+ width: 200px;
+ height: 200px;
+ margin: 0 34%;
+ margin-top: -15%;
+ animation-name: poszerz2;
+}
+
+
+.name
+{
+ top: -30px;
+ width: 100%;
+ height: 200px;
+ line-height: 200px;
+ font-size: 38px;}
+
+#footer{
+	display: none;
+}
+
+}
+
+
+

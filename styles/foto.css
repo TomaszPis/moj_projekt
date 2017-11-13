@@ -1,0 +1,228 @@
+
+
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/TCCM.TTF');
+}
+
+
+
+@font-face
+{
+font-family: albumowa;
+src: url('../fonts/kastleri.TTF');
+}
+
+/*szkielet*/
+
+
+body
+{
+  font-family: glowna;
+  min-height: 100vh;
+  padding: 0;
+  margin: 5% 0;
+  width: 100%;
+}
+
+#container
+{
+ margin-bottom: 5%;
+ height: auto;
+}
+
+#container h1
+{
+text-align: center;
+margin-top: 0; 
+}
+
+.logo
+{
+ width: 250px;
+ display: block;
+ margin: 3% auto;
+}
+
+.starter
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 70vh;
+ width: 100%;
+ margin: 0;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ transition: 500ms;
+}
+
+.pagename
+{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ height: 100px;
+ width: 100%;
+ background: rgba(0, 0, 0, .8);
+ text-align: center;
+ color: #ffffff;
+}
+
+.pagename p
+{
+ position: relative;
+ top: -0vh;
+ right: 50%;
+ margin: 0;
+ font-size: 5vh;
+ float: right;
+}
+
+.pagename a{
+  position: relative;
+  top: 3.5vh;
+  width: 10%;
+  height: 3vh;
+  display: block;
+  margin: 0.5%;
+  padding: 0;
+}
+
+.pgnlogo
+{
+ width: 100%;
+}
+
+#kategorie, #albumy
+{
+ position: relative;
+ width: 95%;
+ margin: 0 5%;
+}
+
+#albumy
+{
+ top: 430px;
+}
+
+
+#kategorie, #zdjecia
+{
+ height: 30px;
+}
+
+.kategoria, .album
+{
+ width: 200px;
+ height: 200px;
+ margin: 4%;
+ float: left;
+ overflow: hidden;
+ padding: 0;
+ background-position: center;
+ background-size: cover;
+ box-shadow: 0 0 5px gray;
+ transition: 500ms;
+}
+
+.kategoria:hover, .album:hover{
+  transform: scale(1.1);
+}
+
+.nazwa_kat, .nazwa_alb
+{
+ position: relative;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ display: inline-block;
+ font-size: 30px;
+ font-family: glowna;
+ text-align: center;
+ line-height: 40px;
+ color: #ffffff;
+ background: rgba(0, 0, 0, .45);
+ z-index: 9;
+ transition: 400ms;
+ transition-timing-function: ease-in;
+}
+
+.nazwa_kat_p, .nazwa_alb_p
+{
+ position: relative;
+ top: 50px;
+}
+
+.top{
+	position: relative;
+	top: 30px;
+}
+
+.kategoria img, .album img
+{
+ position: relative;
+ top: -200px;
+ left: -50px;
+ width: 160%;
+ transition: 500ms;
+}
+
+.nazwa_kat:hover , .nazwa_alb:hover {
+ background: rgba(250, 250, 250, .6); 
+ color: #000000;
+}
+
+#zdjecia
+{
+
+ width: 960px;
+ display: block;
+ margin: 0 auto;
+ padding: 0;
+}
+
+.zdj
+{
+
+ display: block;
+ margin: 0 auto;
+}
+
+.zdjecie
+{
+ float: left;
+ width: 300px;
+ height: 200px;
+ margin: 30px 1%; 
+}
+
+.big
+{
+ width: 960px;
+ height: 620px;
+}
+
+.zdj
+{ 
+ max-width: 470px;
+ height: 100%;
+ transition: 300ms;
+}
+
+.zdj:hover
+{
+ transform: scale(1.05);
+}
+
+.bigger
+{
+ max-width: 960px;
+ height: 100%; 
+}
+
+/*Admin*/
+

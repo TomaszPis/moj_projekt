@@ -1,0 +1,402 @@
+@media screen and (max-width: 480px) {
+
+
+
+body
+{
+  width: 100%;
+}
+
+
+
+#container h1
+{
+text-align: center;
+margin-top: 0; 
+}
+
+.starter{
+ background-size: 100%;
+}
+
+.logo
+{
+ width: 250px;
+ margin: 3% 40.5%;
+}
+
+
+.pagename
+{
+ height: 130px;
+}
+
+.pagename p
+{
+ left: 0;
+ font-size: 40px;
+}
+.pgnlogo
+{
+ width: 35%;
+ margin: 1% 33%;
+}
+
+#kategorie, #albumy, #zdjecia
+{
+ position: relative;
+ width: 460px;
+ margin: 0 13%;
+}
+
+#albumy
+{
+ top: 75vh;
+ margin: 5% auto: 
+}
+
+
+#kategorie, #zdjecia
+{
+ height: 30px;
+}
+
+.kategoria, .album
+{
+ width: 250px;
+ height: 250px;
+ margin: 2.5% 0;
+ overflow: hidden;
+}
+
+.kategoria img, .album img{
+ width: 50%;
+}
+
+.nazwa_kat, .nazwa_alb
+{
+ position: relative;
+ top: 219px;
+ width: 100%;
+ height: 200px;
+ font-size: 32px;
+ text-align: center;
+ line-height: 0px;
+ color: #ffffff;
+ background: rgba(0, 0, 0, .6);
+ z-index: 9;
+}
+
+.kategoria img, .album img
+{
+ position: relative;
+ top: -80px;
+ left: -50px;
+ width: 160%;
+ transition: 500ms;
+}
+
+.kategoria img:hover, .album img:hover
+{
+ transform: rotate(5deg) scale(1.2);
+ 
+}
+
+#zdjecia
+{
+ width: 1300px;
+}
+
+#zdjecia, .zdj
+{
+
+ display: block;
+ margin: 0 auto;
+}
+
+.zdjecie
+{
+ float: left;
+ width: 400px;
+ height: 270px;
+ margin: 30px 1%; 
+}
+
+.zdj
+{ 
+ max-width: 470px;
+ height: 100%;
+}
+
+/*Admin*/
+
+#albumy_admin
+{
+ top: 50px;
+ width: 100%;
+}
+
+#g_a_p
+{
+ position: fixed;
+ width: 200px;
+ top: 50px;
+ left: 20px;
+ z-index: 999;
+}
+
+#g_a_p a
+{
+ float: left;
+ width: 150px;
+ height: 50px;
+ margin: 5%;
+ font-size: 18px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 50px;
+ display: block;
+ background: #995555;
+}
+
+#zdjecia_a
+{
+ width: 960px;
+ margin: 5% auto;
+}
+
+.admin
+{
+ top: 97px;
+}
+
+.zdjecie img
+{
+ z-index: 1
+}
+
+.zdjecie a
+{
+ position: relative;
+ top: -100px;
+ left: 0;
+ width: 60px;
+ height: auto;
+ margin: 5%;
+ font-size: 17px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 20px;
+ border: 2px solid #ffffff;
+ display: block;
+ background: #999900;
+ z-index: 99;
+}
+
+}
+
+
+@media screen and (max-device-width: 480px) {
+
+
+
+body
+{
+ width: 100%;
+}
+
+
+
+#container h1
+{
+text-align: center;
+margin-top: 0; 
+}
+
+.logo
+{
+ width: 400px;
+ margin: 3% 30.5% 0;
+}
+
+h1
+{
+ font-size: 45px;
+ margin-top: 3%;
+}
+
+.starter
+{
+ height: 40vh;
+ display: block;
+ background-size: 100%;
+ background-position: top;
+}
+
+.pagename
+{
+ height: 170px;
+}
+
+.pagename p
+{
+ top: 2vh;
+ left: 0;
+ font-size: 50px;
+}
+.pgnlogo
+{
+ top: 1.5vh;
+ width: 35%;
+ margin: 0% 33%;
+}
+
+#kategorie, #albumy, #zdjecia
+{
+ position: relative;
+ width: 460px;
+ display: block;
+ margin: 0 6.5%;
+}
+
+#albumy
+{
+ top: 600px; 
+}
+
+.kategoria, .album
+{
+ width: 700px;
+ height: 700px;
+ margin: 5% 17%;
+}
+
+.nazwa_kat, .nazwa_alb
+{
+ top: 500px;
+ height: 200px;
+ font-size: 70px;
+ line-height: 0px;
+ background: rgba(0, 0, 0, .7);
+}
+
+.kategoria img, .album img
+{
+ position: relative;
+ top: -250px;
+ left: -50px;
+ width: 160%;
+ transition: 500ms;
+}
+
+.kategoria img:hover, .album img:hover
+{
+ transform: none;
+ 
+}
+
+#zdjecia
+{
+ width: 900px;
+}
+
+
+.zdjecie
+{
+ width: 850px;
+ height: 550px;
+ margin: 30px 1%; 
+}
+
+.zdj
+{ 
+ max-width: 800px;
+ height: 100%;
+}
+
+.big
+{
+ position: relative;
+ top: 100px;
+ left: -20px;
+ width: 900px;
+ height: 600px;
+ display: block;
+ margin: 0 auto;
+}
+
+
+.bigger
+{
+ max-width: 100%;
+ height: 100%; 
+}
+
+/*Admin*/
+
+#albumy_admin
+{
+ top: 50px;
+ width: 100%;
+}
+
+#g_a_p
+{
+ position: fixed;
+ width: 200px;
+ top: 50px;
+ left: 20px;
+ z-index: 999;
+}
+
+#g_a_p a
+{
+ float: left;
+ width: 150px;
+ height: 50px;
+ margin: 5%;
+ font-size: 18px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 50px;
+ display: block;
+ background: #995555;
+}
+
+#zdjecia_a
+{
+ width: 960px;
+ margin: 5% auto;
+}
+
+.admin
+{
+ top: 97px;
+}
+
+.zdjecie img
+{
+ z-index: 1
+}
+
+.zdjecie a
+{
+ position: relative;
+ top: -100px;
+ left: 0;
+ width: 60px;
+ height: auto;
+ margin: 5%;
+ font-size: 17px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 20px;
+ border: 2px solid #ffffff;
+ display: block;
+ background: #999900;
+ z-index: 99;
+}

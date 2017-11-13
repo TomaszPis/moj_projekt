@@ -1,0 +1,333 @@
+@font-face
+{
+font-family: glowna;
+src: url(../fonts/tccm.ttf);
+}
+
+body
+{
+ font-family: glowna;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+
+.starter
+{
+ position: absolute;
+ left: 0;
+ height: 70vh;
+ width: 100%;
+ margin: 0;
+ background-attachment: fixed;
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+.tr, .in
+{
+ top: 0;
+ background-image: url(../zaproszenia/tradycyjne/images/_IGP4568.jpg);
+ background-position: center;
+}
+
+.tr
+{
+ background-image: url(../zaproszenia/tradycyjne/images/_IGP4568.jpg);
+}
+
+.in
+{
+ background-image: url(../zaproszenia/internetowe/images/1.jpg);
+}
+
+.pagename
+{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ height: 15vh;
+ width: 100%;
+ background: rgba(0, 0, 0, .8);
+ text-align: center;
+ color: #ffffff;
+}
+
+.pagename p
+{
+ position: relative;
+ top: 5vh;
+ left: -5%;
+ margin: 0;
+ font-size: 5vh;
+}
+.pgnlogo
+{
+ position: relative;
+ top: 3.5vh;
+ width: 10%;
+ float: left;
+ margin: 1%;
+}
+
+#describe
+{
+ position: absolute;
+ top: 80vh;
+ width: 80%;
+ margin: 0 10% 10% 13%;
+}
+
+.option
+{
+ position: relative;
+ top: 5vh;
+ float: left;
+ width: 25%;
+ min-height: 280px;
+ min-width: 200px;
+ margin: 3%;
+ padding: 0;
+ font-size: 3vh;
+ box-shadow: 0 0 10px #333333;
+}
+
+.option_img
+{
+ position: relative;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: auto;
+ margin-bottom: 5%;
+}
+
+.option p
+{
+ text-align: center;
+ margin: 1%;
+ margin-top: 8%;
+ 
+}
+
+#example
+{
+ position: relative;
+ top: 138vh;
+ padding: 0;
+ width: 20%;
+ height: 50px;
+ margin: 0 30% 0 30.3%;
+ font-size: 5vh;
+ text-align: center;
+ line-height: 50px;
+}
+
+#example a
+{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: #333333;
+}
+
+#booking
+{
+ position: absolute;
+ top: 150vh;
+ left: 0;
+ width: 100%;
+ height: 10vh;
+ background: #333333; 
+ text-align: center;
+ font-size: 3vh;
+}
+
+#booking a, #example a
+{
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#booking a:hover,  #example a:hover
+{
+ color: #999999;
+}
+
+
+@media screen and (max-device-width: 1024px) {
+.starter
+{
+ height: 40vh;
+}
+
+.tr, .in
+{
+ background-position: top;
+}
+
+.pagename
+{
+ height: 20vh;
+}
+
+.pagename p
+{
+ font-size: 6vh;
+ top: 3vh;
+ left: 0;
+}
+.pgnlogo
+{
+ top: 1vh;
+ width: 25%;
+ margin: 1%;
+ float: none;
+}
+
+#describe
+{
+ top: 45vh;
+ width: 90%;
+ margin: 0 5% 10% 5%;
+}
+
+.option
+{
+ width: 46%;
+ min-height: 500px;
+ min-width: 200px;
+ margin: 2%;
+ font-size: 4vh;
+}
+
+
+#example
+{
+ top: 140vh;
+ width: 40%;
+ height: 100px;
+ margin: 0 10% 0 10.3%;
+ font-size: 6vh;
+ line-height: 100px;
+}
+
+
+#booking
+{
+ top: 155vh;
+ font-size: 5vh;
+ line-height: 1.5vh;
+}
+
+}
+
+@media screen and (max-device-width: 768px) {
+.starter
+{
+ height: 50vh;
+}
+
+.in
+{
+ background-size: cover;
+}
+
+.pagename p
+{
+ font-size: 7vh;
+ top: 4vh;
+}
+
+#describe
+{
+ top: 50vh;
+ width: 100%;
+ margin: 0;
+}
+
+.option
+{
+ width: 46%;
+ min-height: 600px;
+ min-width: 200px;
+ margin: 2%;
+ font-size: 4vh;
+}
+
+
+#example
+{
+ top: 160vh;
+ width: 40%;
+ height: 100px;
+ margin: 0 10% 0 10.3%;
+ font-size: 6vh;
+ line-height: 100px;
+}
+
+
+#booking
+{
+ top: 170vh;
+ font-size: 5vh;
+ line-height: 1.5vh;
+}
+
+}
+
+@media screen and (max-device-width: 480px) {
+.starter
+{
+ position: fixed;
+ height: 35vh;
+}
+
+.pagename
+{
+ height: 15vh;
+}
+
+.pagename p
+{
+ font-size: 5vh;
+ top: 4vh;
+}
+
+#describe
+{
+ top: 40vh;
+ width: 100%;
+ margin: 0;
+ background: #ffffff;
+}
+
+.option
+{
+ width: 95%;
+ min-height: 600px;
+ min-width: 200px;
+ margin: 2.6%;
+ font-size: 4vh;
+}
+
+
+#example
+{
+ top: 210vh;
+ width: 40%;
+ height: 100px;
+ margin: 0 10% 0 10.3%;
+ font-size: 6vh;
+ line-height: 100px;
+}
+
+
+#booking
+{
+ height: 15vh;
+ top: 220vh;
+ font-size: 5vh;
+ line-height: 5.5vh;
+}
+

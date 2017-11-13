@@ -1,0 +1,466 @@
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/TCCM.TTF');
+}
+
+body
+{
+  font-family: glowna;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1366px;
+  background: #ffffff;
+}
+
+header
+{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ background: #efefef;
+ box-shadow: 0 0 5px black;
+ z-index: 1;
+}
+
+header h1
+{
+ position: relative;
+ left: 70%;
+ float: left;
+ color: #333333;
+}
+
+
+#logout input
+{
+ height: 30px;
+ width: 80px;
+ border: none;
+ cursor: pointer;
+ background: rgba(0, 0, 0, .0);
+ color: #ffffff;
+}
+
+#contener
+{
+ position: absolute;
+ top: 15%;
+ left: 200px;
+ width: 960px;
+ max-width: 1366px;
+}
+
+nav
+{
+ position: fixed;
+ top: 0; left: 0; 
+ width: 80%;
+
+}
+
+.link_box
+{
+ position: relative;
+ width: 150px;
+ height: 50px;
+ float: left;
+ background: #cc3333;
+ text-align: center;
+ line-height: 50px;
+ margin: 1.5% 1%;
+}
+
+.link_box a
+{
+ display: block;
+ width: 100%;
+ height: 100%;
+ text-decoration: none;
+ color: #ffffff;
+ font-size: 20px;
+}
+
+/*Główna*/
+
+#logo{
+  width: 90%;
+  margin: 5% 10%;
+}
+
+.logo{
+  width: 20%;
+}
+
+
+
+
+/*zgloszenia*/
+
+#message_box
+{
+ position: relative;
+ top: 150px;
+ width: 90%;
+ margin-right: 5%;
+ margin-left: 5%;
+}
+
+.message
+{
+ width: 100%;
+ min-height: 240px;
+ text-align: center;
+ margin-bottom: 2%;
+ border: 1px solid #559999;
+}
+
+.info, .content
+{
+ position: relative;
+ width: 50%;
+ float: left;
+ margin: 0;
+}
+
+.message input
+{
+ height: 30px;
+ width: 80px;
+ border: none;
+ cursor: pointer;
+ background: #995555;
+ color: #ffffff;
+}
+
+.w 
+{
+ position: relative;
+ float: left;
+ width: 50%;
+ height: 70px;
+ margin: 0;
+ padding-top: 2%;
+ font-size: 18px;
+}
+
+.text
+{
+ position: absolute;
+ margin: 2% 1% 2% 1%;
+ top: 0;
+ right: 0;
+ width: 100%;
+ min-height: 200px;
+border: solid 1px #550000; 
+}
+.color
+{
+ color: green;
+}
+
+/*Foto*/
+
+#add_kat, #add_alb, #add_img
+{
+ width: 100%;
+ padding: 0;
+ margin: 0 auto 5%;
+}
+
+
+.add 
+{
+ width: 80%;
+ margin: 1.5% auto;
+ display: block;
+ border-bottom: 1px #995555 solid;
+ padding: 1%;
+}
+
+.add form input{
+  margin: 5%;
+}
+
+#kategorie_admin{
+  position: relative;
+  width: 100%;
+  margin: 1.5% auto;
+  display: block;
+}
+
+#kategorie_admin a{
+	color: #000000;
+	text-decoration: none;
+  transition: 500ms;
+  font-size: 20px;
+}
+
+#kategorie_admin a:hover{
+ color: #990000;
+}
+
+#kategorie_admin table{
+  width: 100%;
+  margin-bottom: 15%;
+  text-align: center;
+}
+
+#kategorie_admin table th{
+  background: #999999;
+}
+
+.column{
+  width: 20%;
+}
+
+.one{
+  width: 60%;
+}
+
+#albumy_admin
+{
+ top: 50px;
+ width: 100%;
+}
+
+#g_a_p
+{
+ position: fixed;
+ width: 200px;
+ top: 50px;
+ left: 20px;
+ z-index: 999;
+}
+
+#g_a_p a
+{
+ float: left;
+ width: 150px;
+ height: 50px;
+ margin: 5%;
+ font-size: 18px;
+ text-decoration: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 50px;
+ display: block;
+ background: #995555;
+}
+
+#zdjecia_a
+{
+ width: 960px;
+ margin: 10% auto;
+}
+
+.admin
+{
+ top: 97px;
+}
+
+.zdjecie_admin, .logo_admin{
+ width: 30%;
+ margin: 30px 1%;
+ height: 200px;
+ float: left; 
+ overflow: hidden;
+ }
+
+.logo_admin{
+  height: 100px;
+}
+.zdj
+{
+ position: relative;
+ top: -229px;
+ width: 100%;
+ box-shadow: 0 0 5px black;
+}
+
+.zdj-logo{
+ position: relative;
+ top: -100px;
+ width: 60%;
+}
+
+.link-image{
+  width: 100%;
+}
+
+#manage-image, #manage-logo{
+  position: relative;
+  top: -10px;
+  left: -20px;
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  display: inline-block;
+  background: rgba(0, 0, 0, .8);
+  z-index: 99;
+  transform: translateY(100%);
+  transition: 500ms;
+}
+
+.zdjecie_admin:hover > #manage-image, .logo_admin:hover > #manage-logo{
+  transform: translateY(0%);
+}
+
+#manage-image li{
+  position: relative;
+  top: 20px;
+  margin-bottom: 2%;
+  float: left;
+}
+
+#manage-image li a, #manage-logo li a
+{
+ width: 300px;
+ font-size: 20px;
+ text-decoration: none;
+ color: #777777;
+ text-align: center;
+ line-height: 20px;
+ transition: 500ms;
+}
+
+#manage-image li a:hover, #manage-logo li a:hover{
+  color: #efefef;
+}
+
+.deletephoto img, .add-button img{
+  width: 15%;
+  margin-top: 3%;
+}
+
+.deletelogo img{
+  width: 7%;
+  margin-top: 5%;
+}
+
+.deletephoto a, .deletelogo a{
+  background: none;
+}
+
+
+
+
+
+
+/* Blog */
+
+.posts, .news
+{
+ position: relative;
+ top: 0px;
+ left: 12%;
+ width: 35%;
+ float: left;
+ margin: 0 5%;
+ padding: 0; 
+}
+
+.posts h1
+{
+  color: #34484c;
+}
+
+.posts input[type=submit], .news input[type=submit]
+{
+ width: auto;
+ height: 23px;
+ color: #ffffff;
+ background: #992222;
+ border: none;
+ cursor: pointer;
+}
+
+.posts a
+{
+ color: #000000;
+ text-decoration: none;
+}
+
+.posts a:hover
+{
+ color: #555555;
+}
+
+.posts a:visited
+{
+ color: #000000;
+}
+
+.posts a:active
+{
+ color: #995555;
+}
+#formularz
+{
+ position: relative;
+ width: 100%;
+}
+
+#title
+{
+ width: 90%;
+ height: 30px;
+}
+
+textarea
+{
+ width: 90%;
+ height: 150px;
+ font-size: 16px;
+ resize: none;
+}
+
+#title, textarea
+{
+ display: block;
+ margin: 0 auto;
+ border: 1px solid black;
+ padding: 0.1%;
+ transition: 500ms;
+}
+
+.posts h3{
+  text-align: center;
+}
+
+#title:focus , textarea:focus
+{
+ border: 1px solid #555555;
+}
+
+.posts table
+{
+ width: 500px;
+}
+
+.posts table td
+{
+ width: 150px;
+ height: 35px;
+ font-size: 24px;
+ padding: 10px;
+}
+
+.action_table
+{
+ width: 20px;
+}
+
+.action_table input
+{
+ position: relative;
+ left: 37px;
+}
+
+.news
+{
+ font-size: 19px;
+}

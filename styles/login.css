@@ -1,0 +1,150 @@
+@font-face
+{
+font-family: glowna;
+src: url(../fonts/tccm.ttf);
+}
+
+body
+{
+  font-family: glowna;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-image: url(../images/_IGP1755.jpg);
+  background-size: cover;
+}
+
+#log
+{
+ position: absolute;
+ top: 40%;
+ width: 30%;
+ height: 200px;
+ margin-left: 35%;
+ margin-right: 35%;
+ border-radius: 10px;
+ background: rgba(0, 0, 0, .7);
+}
+
+#error
+{ 
+ color: red;
+ text-align: center;
+ font-size: 24px;
+}
+
+#log_f
+{
+ position: relative;
+ top: 50px
+}
+
+input[type=text], input[type=password]
+{
+ border: none;
+ height: 40px; 
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+input[type=text]
+{
+ border-bottom: 1px solid gray;
+}
+
+
+input[type=submit]
+{
+ height: 30px;
+ width: 80px;
+ margin-left: 40%;
+ margin-right: 40%;
+ border: none;
+ cursor: pointer;
+ background: #559999;
+ color: #ffffff;
+ transition: 100ms;
+}
+
+input[type=submit]:hover
+{
+ background: #995555;
+}
+
+@media screen and (max-device-width: 760px){
+
+#log
+{
+ top: 10%;
+ width: 70%;
+ height: 300px;
+ margin-right: 15%;
+ margin-left: 15%;
+}
+
+#log_f
+{
+ top: 50px
+}
+
+input[type=text], input[type=password]
+{
+ height: 60px; 
+ width: 70%;
+ margin-left: 15%;
+ font-size: 30px;
+ text-align: center;
+ background: rgba(250, 250, 250, .8);
+}
+
+input[type=submit]
+{
+ height: 80px;
+ width: 190px;
+ margin-top: 3%;
+ margin-left: 36%;
+ font-size: 30px; 
+}
+	
+}
+
+
+
+@media screen and (max-device-width: 480px) {
+	
+body
+{
+ background-image: url(../images/mIGP1755.jpg);
+}
+
+#log
+{
+ top: 60%;
+ height: 500px;
+}
+
+#log_f
+{
+ top: 100px
+}
+
+input[type=text], input[type=password]
+{
+ height: 100px; 
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
+ font-size: 40px;
+}
+
+input[type=submit]
+{
+ height: 100px;
+ width: 220px;
+ margin-top: 5%;
+ margin-left: 35%;
+ font-size: 40px; 
+}
+
+}

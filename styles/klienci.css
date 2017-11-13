@@ -1,0 +1,52 @@
+@font-face
+{
+font-family: glowna;
+src: url('../fonts/BASICTITLEFONT.TTF');
+}
+
+body{
+	font-family: glowna;
+}
+
+/*login*/
+
+.logo{
+	margin: 15% auto 5%; 
+	display: block;
+}
+	
+#log{
+	width: 50%;
+	margin: 0 24%;
+	text-align: center;
+	display: block;
+}
+
+input{
+	margin: 2.5% auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+input[type=password]{
+	width: 180px;
+	height: 40px;
+	border: none;
+	background: #999999;
+	border-radius: 3px;
+	color: #ffffff;
+	transition: 500ms;
+}
+
+input[type=password]:focus{
+	background: #0086b3;
+	color: #333333;
+}
+
+input[type=submit]{
+	width: 80px;
+	height: 25px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
